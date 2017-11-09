@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Customer\Api\AccountManagementInterface">
+        <plugin name="firegento_plugin_customer" type="FireGento\PluginDemo\Plugin\AccountManagementPlugin"/>
+    </type>
+    <type name="Magento\Contact\Block\ContactForm">
+        <plugin name="firegento_plugin_contact" type="FireGento\PluginDemo\Plugin\ContactFormPlugin" />
+    </type>
+</config>
